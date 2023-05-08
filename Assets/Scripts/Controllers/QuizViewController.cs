@@ -28,7 +28,7 @@ namespace QuizGame.Controllers
 
     public void OnWrongAnswer()
     {
-    
+      _quizView.MistakeView.OnMistakeMaded();
     }
   }
 }

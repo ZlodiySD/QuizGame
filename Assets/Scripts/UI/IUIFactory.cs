@@ -1,3 +1,4 @@
+using QuizGame.Infrastructure;
 using UnityEngine;
 
 namespace QuizGame.UI
@@ -11,5 +12,6 @@ namespace QuizGame.UI
     GameObject CreateAnswerView(Transform holder);
     void DestroyUIRoot();
     GameObject CreateGameEndView();
+    GameObject CreateMistakeMarker(Transform holder);
   }
 }

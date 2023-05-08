@@ -57,8 +57,10 @@ namespace QuizGame.States
     private void SetupQuiz()
     {
       QuizView quizView = _uiFactory.CreateQuizView().GetComponent<QuizView>();
-      quizView.answerHolderView.Construct(_uiFactory);
-    
+      quizView.AnswerHolderView.Construct(_uiFactory);
+      quizView.MistakeView.Construct(_uiFactory);
+      quizView.MistakeView.SetupMistakes(_gameRules.MaximumMistakes);
+
       _quizViewController = new QuizViewController(quizView);
     }
 

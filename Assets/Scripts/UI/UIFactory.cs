@@ -32,6 +32,9 @@ namespace QuizGame.UI
     public GameObject CreateGameEndView() => 
       _assetProvider.Instantiate("UI/GameEndView",_rootTransform);
 
+    public GameObject CreateMistakeMarker(Transform holder) => 
+      _assetProvider.Instantiate("UI/MistakeMarkerView",holder);
+
     public void DestroyUIRoot()
     {
       if (_rootTransform)

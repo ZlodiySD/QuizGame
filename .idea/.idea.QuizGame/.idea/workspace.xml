@@ -26,6 +26,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4a31731933e0419ca5a995305014ad37157a00/cf/be7e29fa/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.burst@1.6.5/Editor/BurstAotCompiler.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/CrystalFramework/Utility/SafeArea.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Views/MistakeView.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="2PNUzZNiyoyJ9Tw4HaMB6aAfufM" />
   <component name="ProjectViewState">
@@ -75,7 +76,7 @@
       <workItem from="1683297327240" duration="14891000" />
       <workItem from="1683375428435" duration="10029000" />
       <workItem from="1683453506401" duration="27857000" />
-      <workItem from="1683546417026" duration="1737000" />
+      <workItem from="1683546417026" duration="3574000" />
     </task>
     <servers />
   </component>

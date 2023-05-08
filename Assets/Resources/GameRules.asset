@@ -12,8 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1024b755a2d5a24d8914e13d1cbfaac, type: 3}
   m_Name: GameRules
   m_EditorClassIdentifier: 
-  MaximumMistakes: 1
+  MaximumMistakes: 3
   isRandomOrder: 1
   Questions:
-  - {fileID: 11400000, guid: 687da91d113d8a34a85d6c6917064210, type: 2}
+  - {fileID: 11400000, guid: 49955e134301f7541a3215a784eb4122, type: 2}
+  - {fileID: 11400000, guid: 8b781d4c5d4f45e4eb3ac1db03ea24bb, type: 2}
+  - {fileID: 11400000, guid: 2988a454a5524de43b0fd879a2645755, type: 2}
+  - {fileID: 11400000, guid: 2f2d4234150155f468b9d2209f199849, type: 2}
+  - {fileID: 11400000, guid: 661786669275e454b953314b1a6c16a1, type: 2}
+  - {fileID: 11400000, guid: 925b42fd500988248bdcb1ab92a30be5, type: 2}
+  - {fileID: 11400000, guid: afc9ed8a7888faa4cbf4f2fc4bab381f, type: 2}
   - {fileID: 11400000, guid: 0cc52313d08432844a4b4b3a393c8f34, type: 2}
+  - {fileID: 11400000, guid: 687da91d113d8a34a85d6c6917064210, type: 2}
+  - {fileID: 11400000, guid: 5f76e99d5d436444cad67dc073c895ef, type: 2}

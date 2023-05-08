@@ -9,13 +9,15 @@ namespace QuizGame.UI.Views
   {
     public TextMeshProUGUI QuestionText;
     public TextMeshProUGUI TimerText;
-    public AnswerHolderView answerHolderView;
-
+    
+    public AnswerHolderView AnswerHolderView;
+    public MistakeView MistakeView;
+    
     public void SetupView(QuizQuestion quizQuestion, Action<Answer> answerClicked)
     {
       QuestionText.text = quizQuestion.Question;
 
-      answerHolderView.SetupView(quizQuestion.Answers, answerClicked);
+      AnswerHolderView.SetupView(quizQuestion.Answers, answerClicked);
     }
   
     public void UpdateTimer(string time)
